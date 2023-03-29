@@ -6,13 +6,13 @@ requires = [
 ]
 build-backend = "setuptools.build_meta"
 
-# [project]
-# name='semver_release'
-# description='Test semantic versioning release strategy'
-# readme='README.md'
-# requires-python = ">=3.7"
-# dependencies=[]
-# dynamic = ["version"]
+[project]
+name='semver_release'
+description='Test semantic versioning release strategy'
+readme='README.md'
+requires-python = ">=3.7"
+dependencies=[]
+dynamic = ["version"]
 
 # [tool.setuptools.dynamic]
 # version = {attr = "semver_release.__version__"}
